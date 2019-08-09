@@ -25,6 +25,8 @@ ENV LC_ALL en_US.UTF-8
 ENV LC_CTYPE en_US.UTF-8
 ENV LC_MESSAGES en_US.UTF-8
 
+ENV SF_ENV development
+
 RUN set -ex \
     && buildDeps=' \
         freetds-dev \
