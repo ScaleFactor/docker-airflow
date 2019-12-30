@@ -3,7 +3,7 @@ version: 2
 jobs:
   build_and_test:
     docker:
-      - image: docker:18.06.1-ce-git
+      - image: google/cloud-sdk
     working_directory: ~/docker-airflow
     steps:
       - checkout
